@@ -54,10 +54,11 @@ void main()
                 for (i = 1; i <= n; i++)
                 {
                     if (visited[i] && i != v)
+                    {
+                        printf("%d ", i);
+                    }
                 }
-                {
-                    printf("%d ", i);
-                }
+                
             }
             break;
         case 2:
